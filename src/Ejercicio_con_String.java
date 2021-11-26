@@ -13,7 +13,6 @@ public class Ejercicio_con_String {
         try {
             FileReader file = new FileReader("C:\\Users\\Pol\\Downloads\\santako.txt");
             BufferedReader buff = new BufferedReader(file);
-            Scanner scanner = new Scanner(file);
             boolean eof = false;
             while (!eof) {
                 String line = buff.readLine();
